@@ -50,7 +50,7 @@ const UsersList = () => {
 
   return (
     <Container>
-      <p>Usuarios:</p>
+      {/* <p>Usuarios:</p> */}
       <UsersListView>
         {usersData.map((user) => (
           <UserCard key={user.id} user={user} />

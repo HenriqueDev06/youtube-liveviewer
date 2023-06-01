@@ -23,10 +23,20 @@ export const UserContainer = styled.div`
 
   display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
 
   margin-top: 4px;
   min-width: 100px;
+
+  transition: 0.4s ease;
+  cursor: pointer;
+
+  padding: 2px 60px;
+  border-radius: 5px;
+
+  :hover {
+    background: #d9d9d9;
+  }
 
   img {
     height: 55px;
@@ -89,6 +99,7 @@ export const UsersListView = styled.ul`
       margin: 0;
       flex-direction: column;
 
+      padding: 0;
       p,
       span {
         text-align: center;
